@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4AC770A2247C6930001618C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC770A1247C6930001618C3 /* AppDelegate.swift */; };
 		4AC770A4247C6930001618C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC770A3247C6930001618C3 /* SceneDelegate.swift */; };
-		4AC770A6247C6930001618C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC770A5247C6930001618C3 /* ViewController.swift */; };
 		4AC770A9247C6930001618C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC770A7247C6930001618C3 /* Main.storyboard */; };
 		4AC770AB247C6931001618C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC770AA247C6931001618C3 /* Assets.xcassets */; };
 		4AC770AE247C6931001618C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC770AC247C6931001618C3 /* LaunchScreen.storyboard */; };
+		4AC770B6247C6BE6001618C3 /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC770B5247C6BE6001618C3 /* JokeTableViewController.swift */; };
+		4AC770B8247C7E92001618C3 /* JokeDefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC770B7247C7E92001618C3 /* JokeDefViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4AC7709E247C6930001618C3 /* JokeBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC770A1247C6930001618C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AC770A3247C6930001618C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4AC770A5247C6930001618C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AC770A8247C6930001618C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AC770AA247C6931001618C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AC770AD247C6931001618C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AC770AF247C6931001618C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC770B5247C6BE6001618C3 /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		4AC770B7247C7E92001618C3 /* JokeDefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDefViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				4AC770A1247C6930001618C3 /* AppDelegate.swift */,
 				4AC770A3247C6930001618C3 /* SceneDelegate.swift */,
-				4AC770A5247C6930001618C3 /* ViewController.swift */,
+				4AC770B5247C6BE6001618C3 /* JokeTableViewController.swift */,
+				4AC770B7247C7E92001618C3 /* JokeDefViewController.swift */,
 				4AC770A7247C6930001618C3 /* Main.storyboard */,
 				4AC770AA247C6931001618C3 /* Assets.xcassets */,
 				4AC770AC247C6931001618C3 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC770A6247C6930001618C3 /* ViewController.swift in Sources */,
 				4AC770A2247C6930001618C3 /* AppDelegate.swift in Sources */,
+				4AC770B8247C7E92001618C3 /* JokeDefViewController.swift in Sources */,
 				4AC770A4247C6930001618C3 /* SceneDelegate.swift in Sources */,
+				4AC770B6247C6BE6001618C3 /* JokeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
